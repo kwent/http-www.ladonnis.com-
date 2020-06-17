@@ -1,4 +1,7 @@
-html,
+html {
+  background-color: #000;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -11,14 +14,6 @@ body {
   font-family: "Courier New", Courier, sans-serif !important;
   color: #fff;
   text-align: center;
-}
-
-video {
-  object-fit: cover;
-  width: 100% !important;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 /* ROOT FONT STYLES */
@@ -259,6 +254,11 @@ p {
   }
 }
 
+.caption {
+  font-size: 1em;
+  font-weight: 900;
+}
+
 .buttons {
   flex: 1;
 }
@@ -285,6 +285,14 @@ p {
   border: #fff 1px solid;
   color: #fff;
   font-size: 0.85em;
+}
+
+video {
+  object-fit: cover;
+  width: 100% !important;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .fullscreen-bg {
