@@ -69,7 +69,7 @@
   </head>
 
   <body>
-    <video autoplay muted loop class="fullscreen-bg">
+    <video autoplay muted loop class="fullscreen-bg" id="video-bg">
       <source src="./assets/bg.mp4" type="video/mp4" />
       <source src="./assets/bg.ogv" type="video/ogg" />
     </video>
@@ -404,4 +404,9 @@
       </div>
     </div>
   </body>
+  <script>
+    var bgvideo = document.getElementById("video-bg");
+    bgvideo.muted = true;
+    bgvideo.play();
+  </script>
 </html>
