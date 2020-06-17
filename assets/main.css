@@ -270,9 +270,10 @@ p {
   width: 100%;
   text-align: center;
   padding: 10px;
-  background-color: transparent;
+  background-color: #000;
   border: #fff 1px solid;
   color: #fff;
+  font-size: 0.85em;
 }
 
 .fullscreen-bg {
