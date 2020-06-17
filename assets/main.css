@@ -285,6 +285,7 @@ p {
   width: auto;
   height: auto;
   z-index: -100;
+  overflow: hidden;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
