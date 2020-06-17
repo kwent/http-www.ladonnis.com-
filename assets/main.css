@@ -13,6 +13,14 @@ body {
   text-align: center;
 }
 
+video {
+  object-fit: cover;
+  width: 100% !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /* ROOT FONT STYLES */
 
 * {
@@ -183,6 +191,9 @@ p {
   .container {
     width: 80%;
   }
+  .modal-window > div {
+    width: 400px !important;
+  }
 }
 
 @media only screen and (min-width: 45em) {
@@ -285,7 +296,6 @@ p {
   width: auto;
   height: auto;
   z-index: -100;
-  overflow: hidden;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -314,7 +324,7 @@ p {
 }
 .modal-window > div {
   max-height: 80%;
-  width: 400px;
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
