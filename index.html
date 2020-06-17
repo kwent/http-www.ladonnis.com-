@@ -66,6 +66,14 @@
       gtag("js", new Date());
       gtag("config", "UA-109415665-1");
     </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var bgvideo = document.getElementById("video-bg");
+        bgvideo.muted = true;
+        bgvideo.play();
+      });
+    </script>
   </head>
 
   <body>
@@ -404,9 +412,4 @@
       </div>
     </div>
   </body>
-  <script>
-    var bgvideo = document.getElementById("video-bg");
-    bgvideo.muted = true;
-    bgvideo.play();
-  </script>
 </html>
