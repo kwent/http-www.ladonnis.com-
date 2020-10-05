@@ -2,6 +2,11 @@ html {
   background-color: #000;
 }
 
+@font-face {
+  font-family: Druk;
+  src: url("druk.otf") format("opentype");
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -11,17 +16,9 @@ body {
   top: 0;
   font-size: 100%;
   background-size: 150%;
-  font-family: "Courier New", Courier, sans-serif !important;
+  font-family: Druk, "Courier New", Courier, sans-serif !important;
   color: #fff;
   text-align: center;
-}
-
-/* ROOT FONT STYLES */
-
-* {
-  font-family: "Courier New", Courier, sans-serif;
-  color: #fff;
-  line-height: 1.5;
 }
 
 /* TYPOGRAPHY */
@@ -254,6 +251,11 @@ p {
   }
 }
 
+.smackdown {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
 .caption {
   font-size: 1em;
   font-weight: 900;
@@ -285,29 +287,6 @@ p {
   border: #fff 1px solid;
   color: #fff;
   font-size: 0.85em;
-}
-
-video {
-  object-fit: cover;
-  width: 100% !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.fullscreen-bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .modal-window {
