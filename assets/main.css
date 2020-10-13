@@ -178,6 +178,10 @@ p {
   display: none;
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 33.75em) {
   /* 540px */
   .container {
@@ -256,9 +260,35 @@ p {
   font-weight: 900;
 }
 
+.dropping {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
 .caption {
   font-size: 1em;
   font-weight: 900;
+}
+
+.sign-up {
+  font-size: .8em;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: lightgrey;
+}
+
+.no-worries {
+  font-size: .8em;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: lightgrey;
 }
 
 .buttons {
@@ -273,10 +303,12 @@ p {
   width: 100%;
   text-align: center;
   padding: 15px;
-  background-color: #000;
+  background-color: #1DB954;
   border: #fff 3px solid;
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight:700;
+  cursor: pointer;
 }
 
 .button1 {
