@@ -3,8 +3,30 @@ html {
 }
 
 @font-face {
-  font-family: Druk;
-  src: url("druk.otf") format("opentype");
+  font-family: ATCDuel-V4;
+  src: url("fonts/ATCDuel/OTF/ATCDuel-V4.otf") format("opentype"),
+       url("fonts/ATCDuel/EOT/ATCDuel-V4.eot") format("embedded-opentype"),
+       url("fonts/ATCDuel/WOFF/ATCDuel-V4.woff") format("woff"),
+       url("fonts/ATCDuel/WOFF2/ATCDuel-V4.woff2") format("woff2"),
+       url("fonts/ATCDuel/TTF/ATCDuel-V4.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ATCDuel-V6;
+  src: url("fonts/ATCDuel/OTF/ATCDuel-V6.otf") format("opentype"),
+       url("fonts/ATCDuel/EOT/ATCDuel-V6.eot") format("embedded-opentype"),
+       url("fonts/ATCDuel/WOFF/ATCDuel-V6.woff") format("woff"),
+       url("fonts/ATCDuel/WOFF2/ATCDuel-V6.woff2") format("woff2"),
+       url("fonts/ATCDuel/TTF/ATCDuel-V6.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ATCDuel-V12;
+  src: url("fonts/ATCDuel/OTF/ATCDuel-V12.otf") format("opentype"),
+       url("fonts/ATCDuel/EOT/ATCDuel-V12.eot") format("embedded-opentype"),
+       url("fonts/ATCDuel/WOFF/ATCDuel-V12.woff") format("woff"),
+       url("fonts/ATCDuel/WOFF2/ATCDuel-V12.woff2") format("woff2"),
+       url("fonts/ATCDuel/TTF/ATCDuel-V12.ttf") format("truetype");
 }
 
 body {
@@ -16,7 +38,7 @@ body {
   top: 0;
   font-size: 100%;
   background-size: 150%;
-  font-family: Druk, "Courier New", Courier, sans-serif !important;
+  font-family: ATCDuel-V6, "Courier New", Courier, sans-serif !important;
   color: #fff;
   text-align: center;
 }
