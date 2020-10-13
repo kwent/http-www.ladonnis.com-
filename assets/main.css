@@ -273,12 +273,23 @@ p {
 
 .sign-up {
   font-size: .8em;
-  width: 400px;
+  width: 60%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
   color: lightgrey;
+}
+
+.mc_embed_signup {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .mc_embed_signup {
+    width: 100%;
+  }
 }
 
 .no-worries {
