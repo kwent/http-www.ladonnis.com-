@@ -282,12 +282,6 @@ p {
   font-weight: 900;
 }
 
-.dropping {
-  margin-top: 20px;
-  font-size: 1.2em;
-  font-weight: 600;
-}
-
 .caption {
   font-size: 1em;
   font-weight: 900;
@@ -325,8 +319,8 @@ p {
   width: 100%;
   text-align: center;
   padding: 15px;
-  background-color: #1DB954;
-  border: none;
+  background-color: #000  ;
+  border: 3px solid #fff;
   color: #fff;
   font-size: 1.2em;
   font-weight:700;
