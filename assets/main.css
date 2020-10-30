@@ -5,28 +5,28 @@ html {
 @font-face {
   font-family: ATCDuel-V4;
   src: url("fonts/ATCDuel/OTF/ATCDuel-V4.otf") format("opentype"),
-       url("fonts/ATCDuel/EOT/ATCDuel-V4.eot") format("embedded-opentype"),
-       url("fonts/ATCDuel/WOFF/ATCDuel-V4.woff") format("woff"),
-       url("fonts/ATCDuel/WOFF2/ATCDuel-V4.woff2") format("woff2"),
-       url("fonts/ATCDuel/TTF/ATCDuel-V4.ttf") format("truetype");
+    url("fonts/ATCDuel/EOT/ATCDuel-V4.eot") format("embedded-opentype"),
+    url("fonts/ATCDuel/WOFF/ATCDuel-V4.woff") format("woff"),
+    url("fonts/ATCDuel/WOFF2/ATCDuel-V4.woff2") format("woff2"),
+    url("fonts/ATCDuel/TTF/ATCDuel-V4.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ATCDuel-V6;
   src: url("fonts/ATCDuel/OTF/ATCDuel-V6.otf") format("opentype"),
-       url("fonts/ATCDuel/EOT/ATCDuel-V6.eot") format("embedded-opentype"),
-       url("fonts/ATCDuel/WOFF/ATCDuel-V6.woff") format("woff"),
-       url("fonts/ATCDuel/WOFF2/ATCDuel-V6.woff2") format("woff2"),
-       url("fonts/ATCDuel/TTF/ATCDuel-V6.ttf") format("truetype");
+    url("fonts/ATCDuel/EOT/ATCDuel-V6.eot") format("embedded-opentype"),
+    url("fonts/ATCDuel/WOFF/ATCDuel-V6.woff") format("woff"),
+    url("fonts/ATCDuel/WOFF2/ATCDuel-V6.woff2") format("woff2"),
+    url("fonts/ATCDuel/TTF/ATCDuel-V6.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ATCDuel-V12;
   src: url("fonts/ATCDuel/OTF/ATCDuel-V12.otf") format("opentype"),
-       url("fonts/ATCDuel/EOT/ATCDuel-V12.eot") format("embedded-opentype"),
-       url("fonts/ATCDuel/WOFF/ATCDuel-V12.woff") format("woff"),
-       url("fonts/ATCDuel/WOFF2/ATCDuel-V12.woff2") format("woff2"),
-       url("fonts/ATCDuel/TTF/ATCDuel-V12.ttf") format("truetype");
+    url("fonts/ATCDuel/EOT/ATCDuel-V12.eot") format("embedded-opentype"),
+    url("fonts/ATCDuel/WOFF/ATCDuel-V12.woff") format("woff"),
+    url("fonts/ATCDuel/WOFF2/ATCDuel-V12.woff2") format("woff2"),
+    url("fonts/ATCDuel/TTF/ATCDuel-V12.ttf") format("truetype");
 }
 
 body {
@@ -277,7 +277,9 @@ p {
   }
 }
 
-.smackdown {
+.track-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 1.6em;
   font-weight: 900;
 }
@@ -287,10 +289,15 @@ p {
   font-weight: 900;
 }
 
+.padding-hack {
+  padding-top: 50px;
+}
+
 .sign-up {
-  font-size: .8em;
+  font-size: 0.8em;
   width: 60%;
   margin: 0 auto;
+  margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
   color: lightgrey;
@@ -319,11 +326,23 @@ p {
   width: 100%;
   text-align: center;
   padding: 15px;
-  background-color: #000  ;
+  background-color: #000;
   border: 3px solid #fff;
   color: #fff;
   font-size: 1.2em;
-  font-weight:700;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-green {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #1db954;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
   cursor: pointer;
 }
 
